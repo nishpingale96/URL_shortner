@@ -4,7 +4,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 
 # 1. Define the Database Location
 # 'sqlite:///...' tells SQLAlchemy to create a local file named url_shortener.db
-DATABASE_URL = "sqlite:///./url_shortener.db"
+DATABASE_URL = "sqlite:///./data/url_shortener.db"
 
 # 2. Initialize the Engine
 # 'check_same_thread=False' is a specific requirement for SQLite to work smoothly with FastAPI's async nature
